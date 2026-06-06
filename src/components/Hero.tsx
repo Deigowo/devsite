@@ -1,3 +1,5 @@
+"use client"
+
 export function Hero({ peeking = false, done = false}: { peeking?: boolean, done?: boolean}) {
     return (
         <>
